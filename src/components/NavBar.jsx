@@ -12,7 +12,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full text-white fixed px-4 h-20">
+    <div className="flex justify-between items-center w-full fixed px-4 h-20">
       <div>
         <h1 className="text-4xl font-signature">Alfred</h1>
       </div>
@@ -21,7 +21,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer font-medium hover:scale-105 duration-200"
           >
             {link}
           </li>

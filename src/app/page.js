@@ -1,15 +1,20 @@
 import About from "@/components/About";
-import Homepage from "@/components/Homepage";
+import Experience from "@/components/Experience";
+import HomeDisplay from "@/components/HomeDisplay";
 import NavBar from "@/components/NavBar";
+import Portfolio from "@/components/Portfolio";
 import SocialLinks from "@/components/SocialLinks";
 
 export default function Home() {
   return (
     <div className="">
       <NavBar />
-      <Homepage />
+      <HomeDisplay />
       <About />
-      <SocialLinks />
+      <Portfolio />
+      <Experience />
+
+      {/* <SocialLinks /> */}
     </div>
   );
 }

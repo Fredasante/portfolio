@@ -25,7 +25,7 @@ const MobileLinks = () => {
       </div>
 
       {isopen && (
-        <ul className="flex flex-col absolute justify-center items-center top-0 left-0 w-full h-screen bg-white">
+        <ul className="flex flex-col absolute justify-center items-center top-0 left-0 w-full h-screen bg-[#191d2b] text-[#dbe1e8]">
           {links.map(({ id, link }) => (
             <li
               key={id}

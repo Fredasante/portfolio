@@ -12,7 +12,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full fixed px-4 h-20">
+    <div className="flex justify-between items-center w-full fixed px-4 h-20 text-white">
       <div>
         <h1 className="text-4xl font-signature">Alfred</h1>
       </div>

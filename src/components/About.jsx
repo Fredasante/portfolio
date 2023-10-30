@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section name="about" className="w-full pt-5 lg:pt-20 bg-[#191d2b]">
+    <section name="About" className="w-full pt-5 lg:pt-20 bg-[#191d2b]">
       <div className="max-w-screen-lg p-4 mx-auto text-justify flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white">
@@ -18,11 +18,19 @@ const About = () => {
         </p>
         <br />
         <p className="text-base 2xl:text-xl text-[#dbe1e8]">
-          Let's Connect: I'm excited to connect with fellow developers,
-          designers, and anyone who shares a passion for the web. If you're
-          looking to collaborate on a project, discuss the latest web trends, or
-          just chat about all things front-end, feel free to reach out. Let's
-          create amazing web experiences together!
+          What I Do: My primary focus is on turning design concepts into
+          interactive, responsive, and pixel-perfect websites. I believe in the
+          power of design and user experience to shape a brand's identity and
+          engage its audience. By meticulously translating the visions of
+          designers into functioning websites, I ensure that the user's journey
+          is seamless, visually appealing, and engaging.
+        </p>
+        <br />
+        <p className="text-base 2xl:text-xl text-[#dbe1e8]">
+          Let's Connect: I'm always excited to explore new projects or share
+          ideas. Whether you're a fellow developer, a designer, or a business
+          owner looking to enhance your online presence, feel free to reach out.
+          Let's collaborate and create something exceptional together!
         </p>
       </div>
     </section>

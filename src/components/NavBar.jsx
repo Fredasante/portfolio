@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "react-scroll";
 import MobileLinks from "./MobileLinks";
 
 const NavBar = () => {
@@ -23,7 +24,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer font-medium hover:scale-105 duration-200"
           >
-            {link}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>

@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import HomeDisplay from "@/components/HomeDisplay";
 import NavBar from "@/components/NavBar";
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Experience />
+      <Contact />
 
       {/* <SocialLinks /> */}
     </div>

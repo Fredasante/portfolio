@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const MobileLinks = () => {
   const [isopen, setIsOpen] = useState(false);
@@ -31,7 +32,14 @@ const MobileLinks = () => {
               key={id}
               className="px-4 py-6 text-4xl cursor-pointer font-medium"
             >
-              {link}
+              <Link
+                onClick={() => setIsOpen(false)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>

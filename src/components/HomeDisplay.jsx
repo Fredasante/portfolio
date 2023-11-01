@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 
@@ -31,15 +32,17 @@ const HomeDisplay = () => {
             websites that leave a lasting impression.
           </p>
           <div className="">
-            <a
-              href=""
+            <Link
+              href="/Alfred-Asante-Apenteng-resume.pdf"
+              download={true}
+              target="_blank"
               className="flex items-center justify-center border border-[#58ccea] w-fit font-bold px-4 py-2 rounded-full gap-x-6 hover:bg-[#58ccea] duration-500"
             >
               <span className="">Download CV</span>
               <span className="bg-[#58ccea] p-2 rounded-full">
                 <FaDownload />
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

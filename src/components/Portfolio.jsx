@@ -10,7 +10,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: "/portfolio/Cosmic.PNG",
+      src: "/portfolio/Crypto.PNG",
       demo: "https://cosmic-crypto.vercel.app/",
       link: "https://github.com/Fredasante/cryptotracker",
     },

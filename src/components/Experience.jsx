@@ -50,7 +50,7 @@ const Experience = () => {
             Experience
           </p>
           <p className="py-6 text-base 2xl:text-xl text-[#dbe1e8]">
-            These are the technologies I've worked with
+            These are the technologies I&apos;ve worked with
           </p>
         </div>
 

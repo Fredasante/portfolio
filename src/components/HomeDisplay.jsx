@@ -20,15 +20,15 @@ const HomeDisplay = () => {
 
         <div className="flex flex-col justify-center px-6">
           <h1 className="text-[30px] md:text-[42px] 2xl:text-7xl font-bold">
-            Hi, I'm{" "}
+            Hi, I&apos;m &nbsp;
             <span className="text-[#58ccea]">Alfred Asante Apenteng.</span> A
             Front end developer.
           </h1>
           <p className="my-6 xl:my-12 text-justify text-base 2xl:text-xl">
-            I'm passionate about crafting immersive digital experiences through
-            web development. As a front-end developer, I specialize in creating
-            user-friendly, visually engaging, and highly functional websites
-            that leave a lasting impression.
+            I&apos;m passionate about crafting immersive digital experiences
+            through web development. As a front-end developer, I specialize in
+            creating user-friendly, visually engaging, and highly functional
+            websites that leave a lasting impression.
           </p>
           <div className="">
             <a

@@ -25,7 +25,7 @@ const HomeDisplay = () => {
             <span className="text-[#58ccea]">Alfred Asante Apenteng.</span> A
             Front end developer.
           </h1>
-          <p className="my-6 xl:my-12 text-justify text-base 2xl:text-xl">
+          <p className="my-6 xl:my-12 text-base 2xl:text-xl">
             I&apos;m passionate about crafting immersive digital experiences
             through web development. As a front-end developer, I specialize in
             creating user-friendly, visually engaging, and highly functional

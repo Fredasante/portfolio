@@ -1,34 +1,30 @@
+import Link from "next/link";
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "/portfolio/arrayDestruct.jpg",
+      src: "/portfolio/Vidshare.PNG",
+      demo: "https://streamtube-ten.vercel.app/",
+      link: "https://github.com/Fredasante/yt-clone",
     },
     {
       id: 2,
-      src: "/portfolio/navbar.jpg",
+      src: "/portfolio/Cosmic.PNG",
+      demo: "https://cosmic-crypto.vercel.app/",
+      link: "https://github.com/Fredasante/cryptotracker",
     },
     {
       id: 3,
-      src: "/portfolio/installNode.jpg",
-    },
-    {
-      id: 4,
-      src: "/portfolio/reactParallax.jpg",
-    },
-    {
-      id: 5,
-      src: "/portfolio/reactWeather.jpg",
-    },
-    {
-      id: 6,
-      src: "/portfolio/reactWeather.jpg",
+      src: "/portfolio/Unicorn.PNG",
+      demo: "https://unicorn-edu.netlify.app",
+      link: "https://github.com/Fredasante/Unicorn",
     },
   ];
 
   return (
     <section name="Portfolio" className="w-full pt-10 bg-[#191d2b] ">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg py-4 px-6 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white">
             Portfolio
@@ -39,7 +35,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -48,12 +44,16 @@ const Portfolio = () => {
               />
 
               <div className="flex items-center justify-center text-[#dbe1e8]">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <Link href={demo} target="_blank">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </Link>
+                <Link href={link} target="_blank">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

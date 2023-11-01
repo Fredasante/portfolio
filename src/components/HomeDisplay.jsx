@@ -18,7 +18,7 @@ const HomeDisplay = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center px-4">
+        <div className="flex flex-col justify-center px-6">
           <h1 className="text-[30px] md:text-[42px] 2xl:text-7xl font-bold">
             Hi, I'm{" "}
             <span className="text-[#58ccea]">Alfred Asante Apenteng.</span> A

@@ -44,7 +44,7 @@ const Experience = () => {
 
   return (
     <section name="Experience" className="w-full pt-10 bg-[#191d2b]">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto py-4 px-6 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white">
             Experience

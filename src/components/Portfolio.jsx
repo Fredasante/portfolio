@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "/portfolio/Unicorn.PNG",
-      demo: "https://unicorn-edu.netlify.app",
-      link: "https://github.com/Fredasante/Unicorn",
+      src: "/portfolio/glory.PNG",
+      demo: "https://christglory.netlify.app/",
+      link: "https://github.com/Fredasante/Christglory",
     },
   ];
 

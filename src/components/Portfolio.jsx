@@ -20,6 +20,18 @@ const Portfolio = () => {
       demo: "https://christglory.netlify.app/",
       link: "https://github.com/Fredasante/Christglory",
     },
+    {
+      id: 4,
+      src: "/portfolio/shopper.PNG",
+      demo: "https://shopper-cara.netlify.app/",
+      link: "https://github.com/Fredasante/shopper",
+    },
+    {
+      id: 5,
+      src: "/portfolio/senam.PNG",
+      demo: "https://senamdesign.netlify.app/",
+      link: "https://github.com/Fredasante",
+    },
   ];
 
   return (

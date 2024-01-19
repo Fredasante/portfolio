@@ -10,7 +10,7 @@ const HomeDisplay = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full">
         <div className="flex items-center justify-center px-4">
-          <div className="image w-[68%] h-[90%] lg:ml-16 ml-0 transition-all duration-300">
+          <div className="image w-[65%] h-[90%] lg:ml-16 ml-0 transition-all duration-300">
             <img
               src="/alfred.JPG"
               alt=""
@@ -20,7 +20,7 @@ const HomeDisplay = () => {
         </div>
 
         <div className="flex flex-col justify-center px-6">
-          <h1 className="text-[30px] md:text-[42px] 2xl:text-7xl font-bold">
+          <h1 className="text-[30px] md:text-[40px] 2xl:text-6xl font-bold">
             Hi, I&apos;m &nbsp;
             <span className="text-[#58ccea]">Alfred Asante Apenteng.</span> A
             Front end developer.
@@ -33,7 +33,7 @@ const HomeDisplay = () => {
           </p>
           <div className="">
             <Link
-              href="/Alfred-Asante-Apenteng-resume.pdf"
+              href="/Alfred-Asante-Apenteng-CV.pdf"
               download={true}
               target="_blank"
               className="flex items-center justify-center border border-[#58ccea] w-fit font-bold px-4 py-2 rounded-full gap-x-6 hover:bg-[#58ccea] duration-500"

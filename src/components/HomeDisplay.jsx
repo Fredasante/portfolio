@@ -10,7 +10,7 @@ const HomeDisplay = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full">
         <div className="flex items-center justify-center px-4">
-          <div className="image w-[65%] h-[90%] lg:ml-16 ml-0 transition-all duration-300">
+          <div className="image w-[60%] h-[90%] lg:ml-16 ml-0 transition-all duration-300">
             <img
               src="/alfred.JPG"
               alt=""
@@ -29,7 +29,7 @@ const HomeDisplay = () => {
             I&apos;m passionate about crafting immersive digital experiences
             through web development. As a front-end developer, I specialize in
             creating user-friendly, visually engaging, and highly functional
-            websites that leave a lasting impression.
+            softwares and web applications that leave a lasting impression.
           </p>
           <div className="">
             <Link

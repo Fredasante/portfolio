@@ -40,6 +40,16 @@ const Experience = () => {
       src: "/Typescript.svg.webp",
       title: "Typescript",
     },
+    {
+      id: 9,
+      src: "/SQL.svg",
+      title: "MySQL",
+    },
+    {
+      id: 10,
+      src: "/php.webp",
+      title: "PHP",
+    },
   ];
 
   return (

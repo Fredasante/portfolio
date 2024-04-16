@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "/portfolio/glory.PNG",
-      demo: "https://christglory.netlify.app/",
-      link: "https://github.com/Fredasante/Christglory",
+      src: "/portfolio/prime-reach.PNG",
+      demo: "https://prime-reach.vercel.app",
+      link: "https://github.com/Fredasante",
     },
     {
       id: 4,
@@ -28,8 +28,8 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: "/portfolio/senam.PNG",
-      demo: "https://senamdesign.netlify.app/",
+      src: "/portfolio/peekay.PNG",
+      demo: "https://djpeekay.vercel.app/",
       link: "https://github.com/Fredasante",
     },
   ];

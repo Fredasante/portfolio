@@ -13,27 +13,27 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full bg-[#191d2b] fixed px-4 h-20 text-white">
-      <div>
+    <div className="w-full fixed">
+      <div className="flex justify-between items-center max-w-[1500px] mx-auto w-full bg-[#191d2b] px-4 h-20 text-white">
         <a href="/">
           <h1 className="text-4xl font-signature">Alfred</h1>
         </a>
+
+        <ul className="hidden md:flex">
+          {links.map(({ id, link }) => (
+            <li
+              key={id}
+              className="px-4 cursor-pointer font-medium hover:scale-105 duration-200"
+            >
+              <Link to={link} smooth duration={500}>
+                {link}
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        <MobileLinks />
       </div>
-
-      <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
-          <li
-            key={id}
-            className="px-4 cursor-pointer font-medium hover:scale-105 duration-200"
-          >
-            <Link to={link} smooth duration={500}>
-              {link}
-            </Link>
-          </li>
-        ))}
-      </ul>
-
-      <MobileLinks />
     </div>
   );
 };

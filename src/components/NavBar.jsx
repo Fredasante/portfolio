@@ -13,8 +13,8 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="w-full fixed">
-      <div className="flex justify-between items-center max-w-[1500px] mx-auto w-full bg-[#191d2b] px-4 h-20 text-white">
+    <nav className="w-full fixed bg-[#1F2937] border-b border-gray-700">
+      <div className="flex justify-between items-center max-w-[1500px] mx-auto w-full px-4 h-20 text-white">
         <a href="/">
           <h1 className="text-4xl font-signature">Alfred</h1>
         </a>
@@ -34,7 +34,7 @@ const NavBar = () => {
 
         <MobileLinks />
       </div>
-    </div>
+    </nav>
   );
 };
 

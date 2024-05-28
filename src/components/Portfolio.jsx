@@ -4,27 +4,27 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: "/portfolio/property-pro.PNG",
+      demo: "https://property-pro.onrender.com/",
+      link: "https://github.com/Fredasante/PropertyPro",
+    },
+    {
+      id: 2,
       src: "/portfolio/Vidshare.PNG",
       demo: "https://streamtube-ten.vercel.app/",
       link: "https://github.com/Fredasante/yt-clone",
     },
     {
-      id: 2,
+      id: 3,
       src: "/portfolio/Crypto.PNG",
       demo: "https://cosmic-crypto.vercel.app/",
       link: "https://github.com/Fredasante/cryptotracker",
     },
     {
-      id: 3,
+      id: 4,
       src: "/portfolio/prime-reach.PNG",
       demo: "https://prime-reach.vercel.app",
       link: "https://github.com/Fredasante",
-    },
-    {
-      id: 4,
-      src: "/portfolio/shopper.PNG",
-      demo: "https://shopper-cara.netlify.app/",
-      link: "https://github.com/Fredasante/shopper",
     },
     {
       id: 5,

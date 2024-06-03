@@ -4,33 +4,18 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "/portfolio/property-pro.PNG",
-      demo: "https://property-pro.onrender.com/",
-      link: "https://github.com/Fredasante/PropertyPro",
+      src: "/portfolio/nokofio.PNG",
+      demo: "https://nokofio.me/",
     },
     {
       id: 2,
-      src: "/portfolio/Vidshare.PNG",
-      demo: "https://streamtube-ten.vercel.app/",
-      link: "https://github.com/Fredasante/yt-clone",
+      src: "/portfolio/property-pro.PNG",
+      demo: "https://property-pro.onrender.com/",
     },
     {
       id: 3,
       src: "/portfolio/Crypto.PNG",
       demo: "https://cosmic-crypto.vercel.app/",
-      link: "https://github.com/Fredasante/cryptotracker",
-    },
-    {
-      id: 4,
-      src: "/portfolio/prime-reach.PNG",
-      demo: "https://prime-reach.vercel.app",
-      link: "https://github.com/Fredasante",
-    },
-    {
-      id: 5,
-      src: "/portfolio/peekay.PNG",
-      demo: "https://djpeekay.vercel.app/",
-      link: "https://github.com/Fredasante",
     },
   ];
 
@@ -42,7 +27,7 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6 text-base 2xl:text-xl text-[#dbe1e8]">
-            Check out my programming builds using varying technologies
+            Check out some of my programming builds using varying technologies.
           </p>
         </div>
 
@@ -59,11 +44,6 @@ const Portfolio = () => {
                 <Link href={demo} target="_blank">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
-                  </button>
-                </Link>
-                <Link href={link} target="_blank">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
                   </button>
                 </Link>
               </div>

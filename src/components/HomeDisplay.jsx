@@ -25,7 +25,7 @@ const HomeDisplay = () => {
             <span className="text-[#58ccea]">Alfred Asante Apenteng.</span> A
             Front end developer.
           </h1>
-          <p className="my-6 xl:my-12 text-base 2xl:text-xl">
+          <p className="my-6 xl:my-12 text-base 2xl:text-xl max-w-[700px]">
             I&apos;m passionate about crafting immersive digital experiences
             through web development. As a front-end developer, I specialize in
             creating user-friendly, visually engaging, and highly functional web
@@ -36,7 +36,7 @@ const HomeDisplay = () => {
               href="/Alfred-Asante-Apenteng-CV.pdf"
               download={true}
               target="_blank"
-              className="flex items-center justify-center border border-[#58ccea] w-fit font-bold px-4 py-2 rounded-full gap-x-6 hover:bg-[#58ccea] duration-500"
+              className="flex items-center justify-center border border-[#58ccea] w-fit font-bold px-4 py-2 rounded-full gap-x-6 hover:bg-[#202424] duration-500"
             >
               <span className="">Download CV</span>
               <span className="bg-[#58ccea] p-2 rounded-full">

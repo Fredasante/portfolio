@@ -5,17 +5,12 @@ const Portfolio = () => {
     {
       id: 1,
       src: "/portfolio/nokofio.PNG",
-      demo: "https://nokofio.me/",
+      demo: "https://nokofio.me",
     },
     {
       id: 2,
-      src: "/portfolio/property-pro.PNG",
-      demo: "https://property-pro.onrender.com/",
-    },
-    {
-      id: 3,
-      src: "/portfolio/Crypto.PNG",
-      demo: "https://cosmic-crypto.vercel.app/",
+      src: "/portfolio/swap.PNG",
+      demo: "https://simpleswap.io",
     },
   ];
 

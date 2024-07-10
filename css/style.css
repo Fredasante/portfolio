@@ -121,7 +121,7 @@ body {
   .container-fluid::before {
     content: "";
     position: absolute;
-    width: 15%;
+    width: 20%;
     height: 100%;
     top: 0;
     left: 0;

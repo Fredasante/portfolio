@@ -318,3 +318,15 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding: 0;
+  }
+}

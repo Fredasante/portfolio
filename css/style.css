@@ -315,19 +315,12 @@ body {
   margin-bottom: 0 !important;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (max-width: 991px) {
   .container {
     padding: 0px 10px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container-fluid {
-    padding: 0 !important;
-    margin: 0 !important;
   }
 }

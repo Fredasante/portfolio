@@ -315,8 +315,8 @@ body {
   margin-bottom: 0 !important;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 @media (max-width: 991px) {

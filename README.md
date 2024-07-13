@@ -1,4 +1,4 @@
-# Alfred Asante Apenteng
+# Alfred Asante Apenteng - Portfolio
 
 Welcome to my personal portfolio repository! Here, you'll find examples of my work and the skills I bring to the table.
 
